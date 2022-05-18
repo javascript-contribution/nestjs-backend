@@ -1,3 +1,5 @@
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
@@ -22,10 +24,54 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
+
 ## Description
-
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## node-nestjs-backend
 
+node-nestjs-backen will have api for all javascript users and contributors. Anyone who wants to refer the work or code for their future projects, can do that by just cloning or downloading zip files. This will be shared work with all contributors. Github could be used as a common platform for depositing individual’s valuable input on any framework or mostly into js dependencies libraries.
+
+## Branch structure
+
+Never push changes to the master branch always check-out a branch and raise a PR.
+
+Create a feature branch from development branch(master or main in our case)
+
+Feature branch should only contain the work for only one feature It should not have multiple features in it Feature branch name should be in format (-) e.g. NEST-signIn e.g. NEST-file-upload Write code in feature branch only
+
+Before raising a PR, make sure you run local tests on your machine using npm run test or any other script to run your tests.
+
+Put reviewers on your PR. Squash and merge commits from the Github UI.
+
+While sending review, make sure your branch has latest code from development branch so that we don't get conflicts.
+
+update development branch from server, merge it to your feature branch and create PR git merge --no-ff master Push only stable code in repo
+
+Bugs related to a feature should be fixed in that branch
+
+Commit Messages Format:
+
+Add/feat = Create a capability e.g. feature, test, dependency.
+
+Cut = Remove a capability e.g. feature, test, dependency.
+
+Fix = Fix an issue e.g. bug, typo, accident, misstatement.
+
+Bump = Increase the version of something e.g. dependency.
+
+Make = Change the build process, or tooling, or infra.
+
+Start = Begin doing something; e.g. create a feature flag.
+
+Stop = End doing something; e.g. remove a feature flag.
+
+Refactor = A code change that MUST be just a refactoring.
+
+Reformat = Refactor of formatting, e.g. omit whitespace.
+
+Optimize = Refactor of performance, e.g. speed up code.
+
+Document = Refactor of documentation, e.g. help files.
 ## Installation
 
 ```bash
@@ -71,3 +117,5 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+
